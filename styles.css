@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.subtext, header a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button, .blue {
+    background-color: #3882F6;
+}
+
+.signature {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+}
