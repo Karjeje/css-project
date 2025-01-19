@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 html, body {
@@ -34,20 +35,28 @@ header, footer {
     text-align: center;
 }
 
-.subtext, header a, .hero-placeholder {
+.subtext, header a, .hero-placeholder, footer {
     font-size: 18px;
     color: #E5E7EB
 }
 
 .quote-container {
     background-color: #E5E7EB;
-    min-height: 25vh;
+    min-height: 40vh;
+    padding: 0 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    margin-top: 50px;
+    width: 80%;
 }
 
 .main-title {
@@ -69,6 +78,10 @@ button, .blue {
     font-size: 18px;
     color: #1F2937;
     font-weight: 900;
+    text-align: right;
+    width: 70%;
+    margin-top: 10px;
+    
 }
 
 header {
@@ -81,10 +94,17 @@ header {
 
 footer {
     min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
 
 .calltoaction {
-    min-height: 25vh;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header a {
@@ -124,9 +144,12 @@ button a {
 
 .information-container {
     display: flex;
-    padding: 0 200px;
+    padding: 0 200px 50px;
     justify-content: center;
     gap: 40px;
+    height: 70%;
+    align-items: center;
+    
 }
 
 .image {
@@ -138,5 +161,25 @@ button a {
 
 .information-container p {
     width: 150px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 500;
+}
+
+.blue {
+    height: 40%;
+    width: 70%;
+    border-radius: 10px / 10px;
+    display: flex;
+    padding: 5% 3%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blue button {
+    padding: 6px 25px;
+    border: 2px solid white;
+    border-radius: 5px / 5px;
+    width: 115px;
     margin-top: 10px;
 }
