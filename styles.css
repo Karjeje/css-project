@@ -20,7 +20,7 @@ header, footer {
 
 .hero {
     background-color: #1F2937;
-    min-height: 40vh;
+    min-height: 60vh;
     display: flex;
     padding: 0 200px;
     align-items: center;
@@ -30,7 +30,8 @@ header, footer {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    min-height: 40vh;
+    min-height: 50vh;
+    text-align: center;
 }
 
 .subtext, header a, .hero-placeholder {
@@ -115,5 +116,27 @@ button a {
     border-radius: 5px / 5px;
     width: 100px;
     margin-top: 10px;
-    
+}
+
+.information > p {
+    margin: 40px 0;
+}
+
+.information-container {
+    display: flex;
+    padding: 0 200px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px / 10px;
+}
+
+.information-container p {
+    width: 150px;
+    margin-top: 10px;
 }
